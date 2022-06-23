@@ -1,18 +1,16 @@
-import React, { useEffect } from 'react'
-import { NavBar } from 'antd-mobile'
+import React, { useEffect } from "react";
+import { NavBar } from "antd-mobile";
 
 const Index: React.FC = () => {
   useEffect(() => {
-    return () => {
-    }
-  }, [])
+    return () => {};
+  }, []);
 
   return (
     <div>
       <NavBar>首页</NavBar>
     </div>
-  )
-  
+  );
 };
 
 export default Index;
