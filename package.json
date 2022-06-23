@@ -17,7 +17,13 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
     "antd-mobile": "^5.16.0",
+    "currency.js": "^2.0.4",
+    "eslint": "^8.18.0",
+    "eslint-plugin-react": "^7.30.0",
+    "prettier": "^2.7.1",
     "react-router-dom": "^6.3.0"
   },
   "scripts": {

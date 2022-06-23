@@ -1,0 +1,47 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "import",
+        "promise",
+        "prettier"
+    ],
+    "rules": {
+        "import/prefer-default-export": "off",
+        "react/react-in-jsx-scope": "off",
+        "prettier/prettier": "error",
+        "react/prop-types": 0,
+        "no-param-reassign":"off",
+        "import/extensions": "off",
+        "react/destructuring-assignment": "off",
+        "react/require-default-props": "off"
+    },
+
+    "import/no-anonymous-default-export": [2, {
+        "allowArray": true,
+        "allowArrowFunction": true,
+        "allowAnonymousClass": false,
+        "allowAnonymousFunction": true,
+        "allowCallExpression": true,
+        "allowLiteral": true,
+        "allowObject": true
+    }]
+}

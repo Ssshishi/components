@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { NavBar } from 'antd-mobile'
 
-export const Index: React.FC = () => {
+const Index: React.FC = () => {
   useEffect(() => {
     return () => {
     }
@@ -14,3 +14,5 @@ export const Index: React.FC = () => {
   )
   
 };
+
+export default Index;
