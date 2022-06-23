@@ -17,12 +17,19 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@types/mockjs": "^1.0.6",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
     "antd-mobile": "^5.16.0",
+    "axios": "^0.27.2",
     "currency.js": "^2.0.4",
     "eslint": "^8.18.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.0",
+    "mockjs": "^1.1.0",
     "prettier": "^2.7.1",
     "react-router-dom": "^6.3.0"
   },
