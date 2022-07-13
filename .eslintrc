@@ -1,0 +1,18 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": ["airbnb-typescript", "prettier"],
+  "plugins": ["@typescript-eslint", "import", "promise", "prettier"],
+  "rules": {
+    "import/prefer-default-export": "off",
+    "react/react-in-jsx-scope": "off",
+    "prettier/prettier": "error",
+    "react/prop-types": 0,
+    "no-param-reassign":"off",
+    "import/extensions": "off",
+    "react/destructuring-assignment": "off",
+    "react/require-default-props": "off"
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}

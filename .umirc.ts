@@ -8,6 +8,7 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
+  extraBabelPlugins: ['@babel/plugin-proposal-export-namespace-from'],
   fastRefresh: {},
   dva: {},
   antd: false,
