@@ -54,6 +54,7 @@
     "babel-plugin-styled-components": "^2.0.7",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.0",
+    "re-resizable": "^6.9.9",
     "react-infinite-scroll-component": "^6.1.0",
     "safe-area-insets": "^1.4.1",
     "taro": "^0.0.7",
